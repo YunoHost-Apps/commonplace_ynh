@@ -16,6 +16,7 @@ ynh_script_progression "Setting up source files..."
 ynh_setup_source --dest_dir="$install_dir"
 
 pushd $install_dir
+	go install framagit.org/dynamicskillset/commonplace@latest
 	ynh_exec_as_app make build
 popd
 

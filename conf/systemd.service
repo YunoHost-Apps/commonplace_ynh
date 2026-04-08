@@ -11,7 +11,6 @@ ExecStart=__INSTALL_DIR__/commonplace serve --config commonplace.toml
 StandardOutput=append:/var/log/__APP__/__APP__.log
 StandardError=inherit
 
-
 # Sandboxing options to harden security
 # Details for these options: https://www.freedesktop.org/software/systemd/man/systemd.exec.html
 NoNewPrivileges=yes
