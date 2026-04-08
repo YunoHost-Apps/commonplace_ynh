@@ -46,7 +46,7 @@ ram.runtime = "50M"
 
     [resources.sources.main]
     url = "https://framagit.org/dynamicskillset/commonplace/-/archive/v2.9.0/commonplace-v2.9.0.tar.gz?ref_type=tags"
-    sha256 = "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+    sha256 = "5d8e1df8d90d254c7fbc8e5f4af59907d9bee3f7a6d91b7382b28c084ad7608a"
 
     # autoupdate.strategy = "latest_github_tag"
 
