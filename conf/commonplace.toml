@@ -1,0 +1,9 @@
+[instance]
+domain = "__DOMAIN__"
+name   = "My Commonplace"
+
+[http]
+listen_address = ":__PORT__"
+
+[security]
+encryption_key = ""  # auto-generates on first run
